@@ -1,0 +1,38 @@
+REQUIREMENTS:
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+
+Breakdown:
+
+Libraries need to install:         
+1. streamlit- To build the web application UI.
+2. pandas-For working with the movie dataset (movies['title'] etc).
+3. numpy-(Likely used in Movie_Recomendation_Project.ipynb to compute similarity.)
+4. scikit-learn-(Likely used to compute similarity matrix using TF-IDF or cosine similarity.)
+5. pickle-(Built-in) Used to load the .pkl files (movie_list.pkl, similarity.pkl)
+
+
+Libraries used:
+1. numpy-Fundamental package for numerical computing in Python. Used for arrays, math functions, and more.✅ pip install numpy
+2. pandas-Powerful data analysis and manipulation library. Great for working with tabular data (DataFrames).✅ pip install pandas
+3. json-Built-in module for parsing and manipulating JSON (JavaScript Object Notation) data.❌ Built-in
+4. re-Built-in module for regular expressions, useful for pattern matching in text.❌ Built-in
+5. matplotlib.pyplot- A plotting library for creating static, animated, and interactive visualizations in Python.✅ pip install matplotlib
+6. seaborn-Statistical data visualization library built on top of Matplotlib.✅ pip install seaborn
+7. sklearn.neighbors.KNeighborsClassifier-K-Nearest Neighbors algorithm for classification (from scikit-learn).✅ pip install scikit-learn
+8. sklearn.metrics-For evaluation metrics like confusion matrix and accuracy score.✅ Included with scikit-learn
+9. sklearn.model_selection-Contains cross-validation and data-splitting strategies like StratifiedKFold and KFold.✅ Included with scikit-learn
+10. sklearn.preprocessing-Utilities for preprocessing data, like StandardScaler for feature normalization.✅ Included with scikit-learn
+11. streamlit-Framework to build data apps and dashboards easily with Python.✅ pip install streamlit
+12. pickle-Built-in module used for serializing and deserializing Python object structures (like saving models or data).❌ Built-in
+13. sklearn.metrics.pairwise-Contains pairwise distance and similarity measures like cosine_similarity — useful in recommendation systems.✅ Included with scikit-learn
+
+DATASETS WHICH I USED, YOU CAN DOWNLOAD OTHER MOVIE RELATED DATASETS FROM THE KAGGLE.COM WEBSITE.
+DATASETS NEED TO LOAD:
+
+tmdb_5000_movies.csv- Contains metadata about 5000 movies (title, genre, etc.)
+tmdb_5000_credits.csv- Contains cast and crew info for each movie
