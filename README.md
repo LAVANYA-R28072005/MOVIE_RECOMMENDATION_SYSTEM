@@ -44,3 +44,4 @@ Download from Kaggle: [TMDb Movie Dataset](https://www.kaggle.com/datasets/tmdb/
 
 ### Note:
 you need to install the libraries in the virtual env project folder to execute the project, only then you can run it successfully or you will get errors.
+just refer the requirements.txt file to get the overview of the libraries.
