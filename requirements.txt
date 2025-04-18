@@ -1,10 +1,10 @@
 REQUIREMENTS:
-streamlit
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
+*streamlit
+*pandas
+*numpy
+*matplotlib
+*seaborn
+*scikit-learn
 
 Breakdown:
 
